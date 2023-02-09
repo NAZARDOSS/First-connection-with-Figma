@@ -1,0 +1,159 @@
+.contact {
+  margin-top: 8%;
+  height: 800px;
+  background: url("./Rectangle.svg");
+  display: flex;
+  flex-direction: column;
+
+  .phone-img{
+    height: 20px;
+    width: 10px;
+  }
+  .email-img {
+    height: 15px;
+    width: 20px;
+    border: solid white;
+  }
+  input {
+    border: none;
+    background-color: transparent;
+    text-align: left;
+  }
+
+  .main-block {
+    margin-top: 122px;
+  }
+
+  h1 {
+    padding-left: 16px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 69px;
+    color: white;
+    margin: 0;
+  }
+
+  p {
+    text-align: center;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 10px;
+    line-height: 25px;
+    color:rgba(255, 255, 255, 0.835);
+    margin: 0;
+    margin-top: 4%;
+  }
+  .email-block{
+    padding-left: 30px;
+  }
+  .contact_data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    font-size: 13px;
+
+
+    .phone_num,
+    .email {
+      color: white;
+      margin: 0 10px;
+    }
+  }
+
+  .message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {
+      margin: 0 10px;
+      width: 150px;
+
+      &:focus{
+        
+        outline: none;
+        border: none;
+        color: #FFFFFF;
+          
+      }
+    }
+  }
+.inputs{
+  height: 150px;
+}
+  h5{
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    padding-left: 11px;
+    padding-top: 4px;
+  }
+  
+    input {
+      width: 100%;
+      max-width: 500px;
+      &:focus{
+        
+        outline: none;
+        border: none;
+        color: #FFFFFF;
+    }
+  }
+
+  .message {
+    display: grid;
+    grid-template-columns: repeat(2, 0.4fr);
+    gap: 20px;
+
+  }
+
+  .message input {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .message2 {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    h5{
+      font-size: 10px;
+      color: white;
+      position: absolute;
+      padding-left: 11px;
+      padding-top: 2px;
+    }
+    .inputs{
+      padding-left: 30px
+    }
+  }
+  
+  .message2 input {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 315px;
+    margin: 0 auto;
+
+  }
+
+  button {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 25px;
+    color: white;
+    background: #005fa3;
+    height: 32px;
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 170px;
+    border: none;
+  }
+}

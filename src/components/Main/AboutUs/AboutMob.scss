@@ -1,0 +1,92 @@
+body{
+    margin-bottom: 70px;
+    overflow-x: hidden;
+}
+
+
+
+        .left-part {
+          margin-left: 20px;
+          
+          h1{
+            font-weight: 600;
+          }
+          .ivanov {
+            color: rgba(0, 95, 163, 1)
+          }
+          h4{
+            display: none;
+          }
+          p{
+            width: 290px;
+            font-size: 9px;
+          }
+        }
+        
+        .about-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 83%;
+            margin: 0 auto;
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-row-gap: 40px;
+
+            
+          
+          
+          .grid-item {
+            background-color: rgba(235, 235, 235, 1);
+            width: 110px;
+            padding: 15px;
+            font-weight: 500;
+            font-size: 9px;
+            line-height: 18px;
+            padding-top: 35px;
+          }
+          .grid-item-blue {
+            background: rgba(0, 95, 163, 1);
+            color: white;
+            width: 110px;
+            padding: 15px;
+            font-weight: 500;
+            font-size: 9px;
+            line-height: 18px;
+            padding-top: 35px;
+          }
+          .num{
+            background-color: rgba(235, 235, 235, 1);
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 66px;
+            letter-spacing: 0.1em;
+            text-align: center;
+            padding: 20px;
+          }
+          .num-blue{
+            background: rgba(0, 95, 163, 1);
+            color: white;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 66px;
+            letter-spacing: 0.1em;
+            text-align: center;
+            padding: 20px;
+          }
+          
+          .underlined-link {
+            text-decoration: underline;
+            color: rgba(0, 95, 163, 1);
+          }
+          .underlined-link-blue {
+            color: white;
+            text-decoration: underline;
+          }
+      
+    
+        }
+      
+    

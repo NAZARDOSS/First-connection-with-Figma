@@ -1,0 +1,111 @@
+button{
+    cursor: pointer;
+    
+    &:hover{
+        transform: scale(1.1);
+        transition: transform 0.3s ease-in-out;
+    }
+}
+.bg{
+    background-color: rgba(235, 235, 235, 1);
+    display: flex;
+    justify-content: space-around;
+
+    h4{
+        display: none;
+    }
+    
+
+}
+.main{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    .gallary {
+        margin-top: 7%;
+        height: 20%;
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 350px);
+            grid-template-rows: repeat(2, 360px);
+            grid-gap: 30px;
+
+            p{
+                margin-left: 13%;
+                margin-top: 40px;
+                width: 187px;
+                height: 54px;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 30px;
+                color: white;
+            }
+            button{
+                width: 173px;
+                height: 50px;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                color: white;
+                border: 2px solid #FFFFFF;
+                border-radius: 25px;
+                background: none;
+                bottom: 40px;
+                margin-left: 45px;
+                margin-top: 150px;
+            }
+
+            .grid-item-blue{
+                background: linear-gradient(0deg, rgba(45, 160, 241, 0.5), rgba(0, 149, 255, 0.384)), url('./assets/gallaryImg.svg');
+            }
+            .grid-item {
+                background: url('./assets/gallaryImg.svg');
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 1128px) {
+    .main{
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+
+        h1{
+            text-align: center;
+        }
+
+        .gallary {
+            margin-top: 7%;
+            height: 20%;
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(1, 290px);
+                grid-template-rows: repeat(6, 190px);
+                grid-gap: 30px;
+                
+                
+                p{
+                    text-align: center;
+                    margin-top: 145px;
+                    height: 54px;
+                    width: 215px;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 30px;
+                    color: white;
+                }
+                button{
+                    display: none;
+                }
+    
+                .grid-item-blue{
+                    background: linear-gradient(0deg, rgba(45, 160, 241, 0.5), rgba(0, 149, 255, 0.384)), url('./assets/gallaryImg.svg');
+                }
+                .grid-item {
+                    background: url('./assets/gallaryImg.svg');
+                }
+            }
+            
+        }
+    }
+    }
