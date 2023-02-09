@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e0430f3.css",
-    "main.js": "/static/js/main.57d86431.js",
-    "static/media/Rectangle.svg": "/static/media/Rectangle.b118b2105b63cf9298c6.svg",
-    "static/media/gallaryImg.svg": "/static/media/gallaryImg.68827a60d5f4d24972dfc2713176b623.svg",
-    "static/media/Logo1.svg": "/static/media/Logo1.58b78ffd94f3e4f5835e1407dbeb72b8.svg",
-    "index.html": "/index.html",
-    "main.1e0430f3.css.map": "/static/css/main.1e0430f3.css.map",
-    "main.57d86431.js.map": "/static/js/main.57d86431.js.map"
+    "main.css": "/NAZARDOSS/BuhOne.git/static/css/main.bb2a285c.css",
+    "main.js": "/NAZARDOSS/BuhOne.git/static/js/main.5d216b37.js",
+    "static/media/Rectangle.svg": "/NAZARDOSS/BuhOne.git/static/media/Rectangle.b118b2105b63cf9298c6.svg",
+    "static/media/gallaryImg.svg": "/NAZARDOSS/BuhOne.git/static/media/gallaryImg.68827a60d5f4d24972dfc2713176b623.svg",
+    "static/media/Logo1.svg": "/NAZARDOSS/BuhOne.git/static/media/Logo1.58b78ffd94f3e4f5835e1407dbeb72b8.svg",
+    "index.html": "/NAZARDOSS/BuhOne.git/index.html",
+    "main.bb2a285c.css.map": "/NAZARDOSS/BuhOne.git/static/css/main.bb2a285c.css.map",
+    "main.5d216b37.js.map": "/NAZARDOSS/BuhOne.git/static/js/main.5d216b37.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e0430f3.css",
-    "static/js/main.57d86431.js"
+    "static/css/main.bb2a285c.css",
+    "static/js/main.5d216b37.js"
   ]
 }
