@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+published on https://nazardoss.github.io/First-connection-with-Figma/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
